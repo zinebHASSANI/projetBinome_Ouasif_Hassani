@@ -1,0 +1,115 @@
+
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+    border-style: double;
+    border-color: black;
+    margin-right: 15%;
+    padding-left: 80px ;
+}
+
+
+#ligne1{
+    display: flex;
+    justify-content: space-between;
+    }
+#ligne2{
+    display: flex;
+    justify-content: space-between;
+}
+#ligne3{
+    display: flex;
+    justify-content: space-between;
+}
+#produit1{
+    background-color:black;
+    border-radius:10px ;
+    border-color: black;
+    margin-bottom: 10px;
+    color: white;
+}
+#produit2{
+    background-color:black;
+    border-radius:10px ;
+    border-color: black;
+    margin-bottom: 10px;
+    color: white;
+}
+#produit3{
+    background-color:black;
+    border-radius:10px ;
+    border-color: black;
+    margin-bottom: 10px;
+    color: white;
+}
+#produit4{
+    background-color:black;
+    border-radius:10px ;
+    border-color: black;
+    margin-bottom: 10px;
+    color:white
+}
+#produit5{
+    background-color:black;
+    border-radius:10px ;
+    border-color: black;
+    margin-bottom: 10px;
+    color:white
+}
+#produit6{
+    background-color:black;
+    border-radius:10px ;
+    border-color: black;
+    margin-bottom: 10px;
+    color: white;
+}
+#produit7{
+    background-color:black;
+    border-radius:10px ;
+    border-color: black;
+    margin-bottom: 10px;
+    color:white
+}
+#produit8{
+    background-color:black;
+    border-radius:10px ;
+    border-color: black;
+    margin-bottom: 10px;
+    color:white
+}
+#produit9{
+    background-color:black;
+    border-radius:10px  ;
+    border-color: black;
+    margin-bottom: 10px;
+    color: white;
+}
+h4{
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size:40 px;
+    margin-bottom: 0;
+}
+p{
+    padding-left: 30%;
+    padding-right: 20%;
+    background-color: black;
+    color: white;
+}
+body{
+    background-image: url("Designer\ Wallpaper\,\ Fine\ Fabrics\ &\ High\ End\ Furniture.jpeg");
+}
+ a{
+    margin-left: 100px;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-right: 50px;
+    font-size:40 px;
+    background-image: url("Designer\ Wallpaper\,\ Fine\ Fabrics\ &\ High\ End\ Furniture.jpeg");
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+ 

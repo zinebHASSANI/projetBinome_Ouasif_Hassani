@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Inscription client pour passer une commande </title>
+    <link rel="stylesheet" href="inscriptionclient.css">
+    
+</head>
+
+<body>
+    
+    
+        <div class="container">
+            <form name="f" action="" method="post" onSubmit="verif()">
+            
+                <h2>Inscription</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    <input type="submit" value="Envoyer"> <input type="reset" value="Annuler">
+    </form>
+</div>
+    <script language="JavaScript">
+        function verif() {
+            if (document.getElementById("username").value == "") { alert("Veuillez taper votre nom et prenom!"); return false;}
+           
+             if (document.getElementById("email").value == "") { alert("Veuillez entrer votre adresse e-mail!"); return false;}
+           if (document.getElementById("email").value.indexOf('@') == -1) { alert("Adresse e-mail incorrecte!"); return false; }
+           
+        }
+       alert("toute l'equipe de la patisserie est enchantee de vous accueillir parmi nos gourmands ! Un grand merci pour votre confiance. Nous sommes impatients de ravir vos papilles avec nos delices sucres. Si vous avez des questions ou des demandes speciales, n'hesitez pas a nous faire part de vos envies. Que votre experience sucree soit des plus delicieuses !") ;  
+    </script>
+
+   
+    </body>
+  </html>
+
